@@ -52,4 +52,4 @@ if file is not None:
     predicted_label = predict_image(image, model, class_names)
 
     st.subheader("Predicted Label:")
-    st.subheader(predicted_label)
+    st.write(predicted_label)
