@@ -1,0 +1,5 @@
+dark
+emission
+planetary
+reflection
+supernova
