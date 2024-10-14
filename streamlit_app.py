@@ -23,7 +23,7 @@ def predict_image(image, model, labels):
     return predicted_class_label
     
 # Set title
-st.title("Nebulae Image Classification")
+st.title("Nebula Image Classification")
 
 # Write about the app
 st.write("This app allows a user to upload an image of a nebula and predict which of the five categories it belongs to. The primary categories include: emission, reflection, dark, planetary, and supernova.")
