@@ -1,7 +1,6 @@
 import streamlit as st
 import numpy as np
 import tensorflow as tf
-from tensorflow.keras.models import load_model
 from PIL import Image
 import warnings
 
@@ -35,7 +34,7 @@ st.subheader('Please upload an image of a nebula')
 file = st.file_uploader("Choose an image...", type=["jpg", "jpeg", "png"])
 
 # Load classifier
-model = load_model('EfficientNetB0-84acc_Imagenet_maxpool_tuneddo.keras')
+model = tf.keras.models.load_model('EfficientNetB0-84acc_Imagenet_maxpool_tuneddo.keras')
 
 
 # Load class names
