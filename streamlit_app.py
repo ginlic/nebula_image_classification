@@ -34,7 +34,7 @@ st.subheader('Please upload an image of a nebula')
 file = st.file_uploader("Choose an image...", type=["jpg", "jpeg", "png"])
 
 # Load classifier
-model = tf.keras.models.load_model('EfficientNetB0-84acc_Imagenet_maxpool_tuneddo.keras')
+model = tf.keras.models.load_model('EfficientNetB0-Imagenet_maxpool_0.4do.keras')
 
 
 # Load class names
